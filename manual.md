@@ -22,3 +22,30 @@ gh repo create "La-paciencia-de-DS" --public --source=. --remote=origin –push
 Verificar en el navegador
 https://github.com/dacwick-cyber/La-paciencia-de-DS
 
+
+Agregar archivos a un repositorio ya creado
+===========================================
+1- Entrar al repositorio
+   cd 'La paciencia de DS'
+
+2- Crear el archivo
+   nano Manual.md
+
+3- Pegar contenido
+   - copiar el texto creado
+   - pegar con click derecho
+   - guardar con Enter
+   - salir con Ctrl+X
+
+4- Verificarlo
+   cat Manual.md
+
+5- Agregar a Git
+   git add Manual.md
+   git commit -m "agrego manual de procedimiento DS"
+   git push
+
+6- Verificar en el navegador
+   https://github.com/dacwick-cyber/La-paciencia-de-DS
+
+
